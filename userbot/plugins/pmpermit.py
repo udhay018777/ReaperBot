@@ -13,7 +13,7 @@ PREV_REPLY_MESSAGE = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`Nigga! you have been blocked and reported in spamwatch for spaamming my PM. Fuck off!` "
-USER_BOT_NO_WARN = ("Hey there, I am {DEFAULTUSER}`s userbot. \n\n{DEFAULTUSER} has not read your message yet.\nWait for him to read your messages.\n\nUntil then don`t spam else you will be blocked and reported as **SPAM** ")
+USER_BOT_NO_WARN = (f"Hey there, I am {DEFAULTUSER} `s userbot. \n\n{DEFAULTUSER} has not read your message yet.\nWait for him to read your messages.\n\nUntil then don`t spam else you will be blocked and reported as **SPAM** ")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
