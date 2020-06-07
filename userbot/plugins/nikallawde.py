@@ -34,7 +34,7 @@ async def _(event):
 
 
 
-    animation_interval = 0.5
+    animation_interval = 1.5
 
     
 
