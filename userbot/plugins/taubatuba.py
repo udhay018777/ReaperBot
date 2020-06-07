@@ -34,7 +34,7 @@ async def _(event):
 
 
 
-    animation_interval = 1.5
+    animation_interval = 1.0
 
     
 
@@ -50,9 +50,7 @@ async def _(event):
 
     animation_chars = [
 
-            "Tauba",
-
-            "Tauba",
+            "Tauba Tauba",
 
             "sara",
 
